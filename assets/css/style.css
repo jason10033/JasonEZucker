@@ -1,0 +1,553 @@
+/* =========================================================
+   Jason Zucker MD — Personal Site
+   Inspired by Hugo Academic / Hugo Blox
+   ========================================================= */
+
+/* --- Variables --- */
+:root {
+  --primary:       #1565c0;
+  --primary-light: #1976d2;
+  --primary-dark:  #0d47a1;
+  --accent:        #e3f2fd;
+  --text:          #2d3748;
+  --text-light:    #718096;
+  --bg:            #ffffff;
+  --bg-alt:        #f8f9fa;
+  --border:        #e2e8f0;
+  --nav-bg:        #1a1a2e;
+  --nav-text:      rgba(255,255,255,0.85);
+  --nav-hover:     #ffffff;
+  --shadow:        0 2px 12px rgba(0,0,0,0.08);
+  --shadow-lg:     0 8px 32px rgba(0,0,0,0.12);
+  --radius:        8px;
+  --radius-lg:     12px;
+  --font-sans:     'Fira Sans', system-ui, -apple-system, sans-serif;
+  --font-serif:    'Merriweather', Georgia, serif;
+  --transition:    all 0.25s ease;
+}
+
+/* --- Reset & Base --- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--primary); text-decoration: none; transition: var(--transition); }
+a:hover { color: var(--primary-dark); }
+
+img { display: block; max-width: 100%; }
+
+ul { list-style: none; }
+
+/* --- Layout --- */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section { padding: 5rem 0; }
+.section-alt { background: var(--bg-alt); }
+
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: var(--nav-bg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: var(--transition);
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.nav-brand {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--nav-hover);
+  letter-spacing: 0.01em;
+}
+.nav-brand:hover { color: #90caf9; }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.nav-links li a {
+  color: var(--nav-text);
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  transition: var(--transition);
+}
+.nav-links li a:hover { color: var(--nav-hover); background: rgba(255,255,255,0.08); }
+
+.nav-cv-btn {
+  background: var(--primary) !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+  padding: 0.35rem 0.9rem !important;
+  font-weight: 500 !important;
+}
+.nav-cv-btn:hover { background: var(--primary-light) !important; }
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.nav-toggle span {
+  width: 24px; height: 2px;
+  background: var(--nav-text);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+/* =========================================================
+   ABOUT SECTION
+   ========================================================= */
+.section-about {
+  padding-top: 7rem; /* offset for fixed nav */
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Profile column */
+.about-profile {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  margin: 0 auto 1.25rem;
+  border: 4px solid var(--border);
+  box-shadow: var(--shadow-lg);
+}
+
+.profile-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.25rem;
+}
+
+.profile-role {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-bottom: 0.15rem;
+}
+
+.profile-org {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-bottom: 1.25rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--bg-alt);
+  color: var(--text-light);
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+  transition: var(--transition);
+}
+.social-icon:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Bio column */
+.section-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+}
+.section-heading.centered {
+  display: block;
+  text-align: center;
+  border-bottom: none;
+  position: relative;
+}
+.section-heading.centered::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--primary);
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.section-subheading {
+  color: var(--text-light);
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+}
+.section-subheading.centered { text-align: center; }
+
+.about-bio p {
+  color: var(--text);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Interests + Education */
+.bio-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.bio-col-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-light);
+  margin-bottom: 0.75rem;
+}
+.bio-col-title i { color: var(--primary); margin-right: 0.4rem; }
+
+.interest-list li {
+  padding: 0.2rem 0;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.interest-list li::before {
+  content: '•';
+  color: var(--primary);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.education-list li {
+  margin-bottom: 0.75rem;
+}
+.edu-degree {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+}
+.edu-inst {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--text-light);
+}
+
+/* Buttons */
+.cta-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: var(--transition);
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+.btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(21,101,192,0.3);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-outline:hover {
+  background: var(--primary);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* =========================================================
+   RESEARCH CARDS
+   ========================================================= */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.card {
+  background: var(--bg);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  text-align: center;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary);
+}
+
+.card-icon {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+/* =========================================================
+   PUBLICATIONS
+   ========================================================= */
+.pub-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.pub-item {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+.pub-item:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateX(4px);
+}
+
+.pub-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub-type {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+}
+.pub-type-article {
+  background: var(--accent);
+  color: var(--primary-dark);
+}
+
+.pub-year {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.pub-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.pub-title a { color: var(--text); }
+.pub-title a:hover { color: var(--primary); }
+
+.pub-authors {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-bottom: 0.25rem;
+}
+
+.pub-journal {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-bottom: 0.75rem;
+}
+
+.pub-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.pub-link {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.pub-link:hover { color: var(--primary-dark); }
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.contact-icon {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+.footer {
+  background: var(--nav-bg);
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+}
+.footer a { color: rgba(255,255,255,0.75); }
+.footer a:hover { color: #fff; }
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 720px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .about-profile {
+    order: 1;
+  }
+  .about-bio {
+    order: 2;
+  }
+
+  .section-heading {
+    display: block;
+    text-align: center;
+  }
+  .section-heading::after {
+    margin: 0.5rem auto 0;
+  }
+
+  .bio-details {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; left: 0; right: 0;
+    background: var(--nav-bg);
+    padding: 1rem 1.5rem;
+    gap: 0.25rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  .nav-links.open { display: flex; }
+  .nav-toggle { display: flex; }
+}
+
+@media (max-width: 480px) {
+  .section { padding: 3.5rem 0; }
+  .section-about { padding-top: 5.5rem; }
+  .cards-grid { grid-template-columns: 1fr; }
+}
