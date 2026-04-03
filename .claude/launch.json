@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "jasonzuckermd",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", "-p", "3456", "."],
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["serve.js"],
       "port": 3456
     }
   ]
