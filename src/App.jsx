@@ -7,7 +7,7 @@ import Research from './pages/Research.jsx'
 import Clinical from './pages/Clinical.jsx'
 import Administration from './pages/Administration.jsx'
 import Publications from './pages/Publications.jsx'
-import Informatics from './pages/Informatics.jsx'
+import Innovations from './pages/Innovations.jsx'
 import Education from './pages/Education.jsx'
 import Press from './pages/Press.jsx'
 import Leadership from './pages/Leadership.jsx'
@@ -45,7 +45,7 @@ export default function App() {
           <Route path="/clinical" element={<ComingSoon title="Clinical Care" />} />
           <Route path="/administration" element={<ComingSoon title="Administration" />} />
           <Route path="/publications" element={<ComingSoon title="Publications" />} />
-          <Route path="/informatics" element={<ComingSoon title="Informatics" />} />
+          <Route path="/innovations" element={<ComingSoon title="Innovations" />} />
           <Route path="/education" element={<ComingSoon title="Education" />} />
           <Route path="/press" element={<ComingSoon title="Press" />} />
           <Route path="/leadership" element={<ComingSoon title="Leadership" />} />
