@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "fa-heart-pulse",
+    "title": "Sexual Health Clinic",
+    "summary": "Status-neutral sexual health care for patients of all ages, integrating HIV and STI prevention and treatment in a single visit."
+  },
+  {
+    "icon": "fa-hospital",
+    "title": "Inpatient ID Consults",
+    "summary": "Inpatient infectious diseases consultation at NewYork-Presbyterian / Columbia University Irving Medical Center."
+  },
+  {
+    "icon": "fa-comments",
+    "title": "Sexual Health E-consults and Chats",
+    "summary": "Asynchronous e-consults and provider chat channels that extend infectious disease and sexual health expertise to frontline clinicians."
+  }
+]

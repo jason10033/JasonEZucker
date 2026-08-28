@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Provider-facing algorithms",
+    "tag": "Provider point-of-care tools",
+    "desc": "Focused algorithms that walk providers through HIV and syphilis test interpretation.",
+    "links": [
+      { "label": "hivalgorithm.com", "url": "https://hivalgorithm.com" },
+      { "label": "syphilisalgorithm.com", "url": "https://syphilisalgorithm.com" }
+    ]
+  },
+  {
+    "name": "Shared decision-making tools",
+    "tag": "Patient counseling",
+    "desc": "DECIDE, an interactive PrEP options counseling tool that supports shared decision making about prevention.",
+    "link": "https://prepoptionscounseling.com/"
+  },
+  {
+    "name": "BLUPrInt",
+    "tag": "Provider tools",
+    "desc": "Co-I on a grant to build evidence-based solutions for equitable, effective, and high-quality HIV prevention programs (Building, Learning, and Understanding Prevention Interventions for HIV).",
+    "link": "https://hivbluprint.org/"
+  },
+  {
+    "name": "ALAI UP",
+    "tag": "Provider tools",
+    "desc": "Co-I on a grant to increase uptake of long-acting injectable antiretrovirals among people with HIV.",
+    "link": "https://www.alai-up.org/"
+  },
+  {
+    "name": "Clinic-facing coordination tools",
+    "tag": "Prototype",
+    "desc": "An early prototype supporting coordination of long-acting injectable HIV care.",
+    "link": "https://lai-coordination-demo.onrender.com/"
+  }
+]
