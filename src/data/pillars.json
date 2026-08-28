@@ -25,22 +25,24 @@
     {
       "icon": "fa-chalkboard-user",
       "title": "NYC STI/HIV Prevention Training Center",
-      "summary": "Principal Investigator and Co-Medical Director of a CDC-funded center delivering clinical training and capacity building for providers across five states and two territories."
+      "summary": "Principal Investigator and Co-Medical Director of a CDC-funded center delivering clinical training and capacity building for providers across five states and two territories.",
+      "link": "https://www.publichealth.columbia.edu/research/centers/new-york-city-sti-hiv-prevention-training-center"
     },
     {
       "icon": "fa-seedling",
       "title": "Fellowship SOC Co-Director",
-      "summary": "Co-Director of the Infectious Diseases Fellowship Scholarly Oversight Committee, mentoring pre- and post-doctoral trainees in HIV and STI research."
+      "summary": "Co-Director of the Infectious Diseases Fellowship Scholarly Oversight Committee, guiding ID fellows across research during their fellowship.",
+      "link": "https://www.infectiousdiseases.cuimc.columbia.edu/education/infectious-diseases-fellowship-program"
     },
     {
       "icon": "fa-user-graduate",
       "title": "Resident and Fellow Education",
-      "summary": "Recurring lectures on sexual health, PrEP, PEP, and empiric antibiotics across internal medicine, pediatrics, and emergency medicine."
+      "summary": "Recurring lectures on sexual health, PrEP, PEP, and empiric antibiotics across internal medicine, pediatrics, emergency medicine, and obstetrics and gynecology."
     },
     {
       "icon": "fa-graduation-cap",
       "title": "Medical Student Teaching",
-      "summary": "Annual STI lecture and small-group facilitation in the Microbiology and Infectious Diseases course for second-year students at VP&S."
+      "summary": "Annual STI lecture in the Microbiology and Infectious Diseases course for second-year students at VP&S, and mentor for summer and scholarly-project student research."
     }
   ]
 }

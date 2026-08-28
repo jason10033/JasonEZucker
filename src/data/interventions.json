@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Clinical quiz games",
+    "tag": "Interactive learning",
+    "desc": "Team-based quiz games for teaching clinical knowledge: a ready-to-play STI quiz and a build-your-own medicine quiz.",
+    "links": [
+      { "label": "STI quiz · Try it", "url": "https://www.stiquizgame.com/" },
+      { "label": "Medicine quiz · Make your own", "url": "https://www.medicinequizgame.com/" }
+    ]
+  },
+  {
+    "name": "Provider-facing algorithms",
+    "tag": "Point-of-care tools",
+    "desc": "Focused decision algorithms that walk providers through HIV and syphilis test interpretation.",
+    "links": [
+      { "label": "hivalgorithm.com", "url": "https://hivalgorithm.com" },
+      { "label": "syphilisalgorithm.com", "url": "https://syphilisalgorithm.com" }
+    ]
+  },
+  {
+    "name": "Sexual history taking trainer",
+    "tag": "Simulation · alpha",
+    "desc": "An interactive simulation for practicing sexual history taking with virtual patients, built on the GOALS framework.",
+    "frameworkUrl": "https://www.goalsapproach.org/",
+    "link": "https://goals-aqmm.onrender.com/"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Infectious Diseases T32",
+    "grantId": "T32AI100852",
+    "title": "Columbia Integrated Training Program in Infectious Diseases Research",
+    "role": "Training Faculty",
+    "desc": "NIAID-funded research training program for infectious diseases fellows and postdoctoral scientists at Columbia.",
+    "reporterUrl": "https://reporter.nih.gov/project-details/11377244"
+  },
+  {
+    "name": "Biomedical Informatics T15",
+    "grantId": "T15LM007079",
+    "title": "Training in Biomedical Informatics at Columbia University",
+    "role": "Training Faculty",
+    "desc": "NLM-funded pre- and postdoctoral training program in biomedical informatics and data science.",
+    "reporterUrl": "https://reporter.nih.gov/project-details/11374120"
+  },
+  {
+    "name": "HIV Center T32 (INSPIRE)",
+    "grantId": "T32MH019139",
+    "title": "Interdisciplinary Social and Behavioral Science Prevention and Intervention Research in HIV (INSPIRE)",
+    "role": "Training Faculty",
+    "desc": "NIMH-funded training program of the HIV Center for Clinical and Behavioral Studies in social and behavioral HIV prevention research.",
+    "reporterUrl": "https://reporter.nih.gov/project-details/11187471"
+  }
+]

@@ -12,6 +12,7 @@ import Education from './pages/Education.jsx'
 import Press from './pages/Press.jsx'
 import Leadership from './pages/Leadership.jsx'
 import Private from './pages/Private.jsx'
+import Resume from './pages/Resume.jsx'
 import NotFound from './pages/NotFound.jsx'
 import ComingSoon from './pages/ComingSoon.jsx'
 
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/press" element={<ComingSoon title="Press" />} />
           <Route path="/leadership" element={<ComingSoon title="Leadership" />} />
           <Route path="/private" element={<ComingSoon title="Private" />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
