@@ -163,7 +163,7 @@ export default function Home() {
                     </span>
                     <span className="gr">{shortRole(g.role)}</span>
                   </div>
-                  <span className="gt">{clip(g.title, 80)}</span>
+                  <span className="gt" title={g.title}>{g.short || clip(g.title, 80)}</span>
                 </div>
               ))}
             </div>

@@ -4,6 +4,7 @@
       "id": "NIAID R01AI196113",
       "reporterUrl": "https://reporter.nih.gov/project-details/11278541",
       "title": "A Multisite Cluster Randomized Stepped-Wedge Implementation-Effectiveness Trial of a Patient Decision Aid to Increase Sexually Transmitted Infection Testing in the Emergency Department: The STIckER Trial",
+      "short": "STIckER Trial: STI testing decision aid in the ED",
       "role": "MPI",
       "pi": "Zucker J, Chernick L",
       "period": "04/2026 - 03/2031"
@@ -12,6 +13,7 @@
       "id": "NIAID R01AI192204",
       "reporterUrl": "https://reporter.nih.gov/project-details/11388656",
       "title": "Doxy4STICare - Doxycycline for Sexually Transmitted Infections; A Comprehensive Assessment of Antimicrobial Resistance and Engagement",
+      "short": "Doxy4STICare: doxy-PEP resistance and engagement",
       "role": "PI",
       "pi": "Zucker J",
       "period": "08/2025 - 07/2030"
@@ -20,6 +22,7 @@
       "id": "NIH/NIAID K23AI150378",
       "reporterUrl": "https://reporter.nih.gov/project-details/10886003",
       "title": "Harnessing Bioinformatics for HIV Prevention: Understanding Persistence in Comprehensive HIV Prevention Services",
+      "short": "Bioinformatics for HIV prevention (K23)",
       "role": "PI",
       "pi": "Zucker J",
       "period": "08/2020 - 07/2026 (NCE)"
@@ -28,6 +31,7 @@
       "id": "NIH/NIAID 5UM1AI068632-19",
       "reporterUrl": "https://reporter.nih.gov/project-details/11238425",
       "title": "Supplement: International Maternal Pediatric Adolescent AIDS Clinical Trials Network study; Protocol Chair for IMPAACT 2044 (Phase IV Study of the Pharmacokinetics and Safety of Ceftriaxone and Benzathine Penicillin G During Pregnancy)",
+      "short": "IMPAACT 2044: antibiotics in pregnancy",
       "role": "Protocol Chair",
       "pi": "Nachman S",
       "period": "12/2023 - 11/2026"
@@ -35,6 +39,7 @@
     {
       "id": "CDC 5NU62PS924586",
       "title": "National Network of Sexually Transmitted Diseases Clinical Prevention Training Centers (NNPTC)",
+      "short": "National STD Prevention Training Centers (NNPTC)",
       "role": "PI (2026 - Present), Assistant Medical Director (2021 - Present)",
       "pi": "Zucker J",
       "period": "04/2020 - 03/2027"
@@ -42,6 +47,7 @@
     {
       "id": "HRSA U1SHA46532",
       "title": "Increasing Uptake of Long-Acting Injectable (LAI) Antiretrovirals (ARV) Among People with HIV (The ALAI UP Project)",
+      "short": "ALAI UP: long-acting injectable ARV uptake",
       "role": "Co-Investigator",
       "pi": "Meyers K",
       "period": "09/2022 - 08/2026"
@@ -50,6 +56,7 @@
       "id": "NIH/NIAID UM1 AI069470",
       "reporterUrl": "https://reporter.nih.gov/project-details/11238983",
       "title": "Columbia Collaborative HIV/AIDS Clinical Trials Unit",
+      "short": "HIV/AIDS Clinical Trials Unit",
       "role": "Co-Investigator",
       "pi": "Sobieszczyk",
       "period": "12/2020 - 11/2027"
@@ -58,13 +65,15 @@
       "id": "5P30MH43520",
       "reporterUrl": "https://reporter.nih.gov/project-details/11368454",
       "title": "HIV Center for Clinical and Behavioral Studies",
-      "role": "Co-I and Biomedical Core Early-Stage Investigator Member",
+      "short": "HIV Center for Clinical & Behavioral Studies",
+      "role": "Co-Investigator; Biomedical Core Early-Stage Investigator",
       "pi": "Remien R",
       "period": "05/2023 - 04/2028"
     },
     {
       "id": "CDC CISA",
       "title": "Clinical Immunization Safety Assessment (CISA) Clinical Vaccine Safety Evaluation, Columbia University",
+      "short": "Clinical Immunization Safety Assessment (CISA)",
       "role": "Contributing Contractor",
       "pi": "Stockwell",
       "period": "09/2022 - Present"

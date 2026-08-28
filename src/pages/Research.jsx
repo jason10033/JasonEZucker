@@ -22,7 +22,7 @@ function GrantList({ items }) {
             </span>
             <span className="gr">{shortRole(g.role)}</span>
           </div>
-          <span className="gt">{clip(g.title, 82)}</span>
+          <span className="gt" title={g.title}>{g.short || clip(g.title, 82)}</span>
         </div>
       ))}
     </div>
