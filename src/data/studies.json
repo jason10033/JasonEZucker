@@ -1,0 +1,66 @@
+[
+  {
+    "name": "STIckER",
+    "status": "active",
+    "categories": ["sti", "informatics", "trials"],
+    "desc": "A digital patient decision aid to increase STI testing in the emergency department, now in a multisite stepped-wedge R01 trial.",
+    "role": "MPI, R01",
+    "match": "sticker|decision (aid|tool)|sti testing|testing in the emergency"
+  },
+  {
+    "name": "Doxy4STICare",
+    "status": "active",
+    "categories": ["sti", "trials"],
+    "desc": "Doxycycline post-exposure prophylaxis for STIs, assessing uptake, engagement, and antimicrobial resistance.",
+    "role": "PI, R01",
+    "match": "doxy"
+  },
+  {
+    "name": "ALAI UP",
+    "status": "active",
+    "categories": ["hiv"],
+    "desc": "Increasing uptake of long-acting injectable antiretrovirals among people with HIV.",
+    "role": "Co-Investigator",
+    "match": "long-acting|injectable|consensus-lai|cabotegravir"
+  },
+  {
+    "name": "Enhanced STI and Mpox Surveillance",
+    "status": "active",
+    "categories": ["informatics", "sti", "mpox"],
+    "desc": "Machine-learning surveillance models and real-time dashboards built on health-information-exchange data in a learning health system.",
+    "role": "PI, K23",
+    "match": "surveillance|machine learning|health information exchange|triple-site|learning public health"
+  },
+  {
+    "name": "Congenital Syphilis Elimination",
+    "status": "active",
+    "categories": ["sti"],
+    "desc": "New York State strategic planning to eliminate congenital syphilis.",
+    "role": "Member",
+    "match": "syphilis"
+  },
+  {
+    "name": "Get2PrEP",
+    "status": "completed",
+    "categories": ["hiv", "informatics"],
+    "desc": "EMR comments and provider nudges to improve PrEP uptake and safe-sex counseling.",
+    "role": "PI",
+    "match": "get2prep|prep upt|provider messaging"
+  },
+  {
+    "name": "STOMP (Tecovirimat for Mpox)",
+    "status": "completed",
+    "categories": ["mpox", "trials"],
+    "desc": "Randomized, placebo-controlled trial of tecovirimat for mpox (ACTG 5418), published in NEJM.",
+    "role": "Protocol Vice-Chair",
+    "match": "tecovirimat|stomp"
+  },
+  {
+    "name": "Mpox Severity Scoring System",
+    "status": "completed",
+    "categories": ["mpox", "informatics"],
+    "desc": "Development and pilot of a clinical severity scoring system for mpox.",
+    "role": "Lead",
+    "match": "severity"
+  }
+]

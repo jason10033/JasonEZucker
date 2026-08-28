@@ -1,0 +1,61 @@
+{
+  "education": [
+    {
+      "period": "08/2006 - 05/2010",
+      "degree": "M.D.",
+      "institution": "Rutgers New Jersey Medical School (Formerly UMDNJ)",
+      "location": "Newark, NJ",
+      "detail": ""
+    },
+    {
+      "period": "08/2004 - 08/2005",
+      "degree": "M.S., Health Care Policy and Management",
+      "institution": "Carnegie Mellon University, H. John Heinz III College",
+      "location": "Pittsburgh, PA",
+      "detail": "Graduate with Highest Distinction"
+    },
+    {
+      "period": "08/2000 - 05/2004",
+      "degree": "B.S., Economics, Minor in Health Care Policy",
+      "institution": "Carnegie Mellon University, Dietrich College of Humanities and Social Sciences",
+      "location": "Pittsburgh, PA",
+      "detail": "Graduate with University Honors"
+    }
+  ],
+  "training": [
+    {
+      "period": "07/2015 - 06/2019",
+      "degree": "Combined Medicine and Pediatric Infectious Diseases Clinical Postdoctoral Fellow",
+      "institution": "Columbia University Irving Medical Center, Divisions of Infectious Diseases",
+      "location": "New York, NY",
+      "detail": ""
+    },
+    {
+      "period": "07/2016 - 06/2019",
+      "degree": "Sexually Transmitted Diseases Fellow",
+      "institution": "New York City STI/HIV Prevention Training Center (NYC PTC)",
+      "location": "New York, NY",
+      "detail": ""
+    },
+    {
+      "period": "07/2014 - 06/2015",
+      "degree": "Chief Resident, Department of Medicine",
+      "institution": "Rutgers New Jersey Medical School",
+      "location": "Newark, NJ",
+      "detail": ""
+    },
+    {
+      "period": "07/2010 - 06/2014",
+      "degree": "Internal Medicine and Pediatrics Resident (Chief Resident 07/2013 - 06/2014)",
+      "institution": "Rutgers New Jersey Medical School, Departments of Medicine and Pediatrics",
+      "location": "Newark, NJ",
+      "detail": ""
+    }
+  ],
+  "boardCertifications": [
+    "Pediatric Infectious Diseases",
+    "Infectious Diseases",
+    "Internal Medicine",
+    "Pediatrics"
+  ]
+}

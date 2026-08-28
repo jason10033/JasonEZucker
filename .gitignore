@@ -1,4 +1,12 @@
+node_modules/
+dist/
+.github-token
+*.local
+.claude/settings.local.json
+work.html
 .DS_Store
 Thumbs.db
 *.tmp
 serve.js
+.env
+.env.*

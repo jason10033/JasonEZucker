@@ -1,0 +1,50 @@
+[
+  {
+    "name": "STIckER (STI Check in the Emergency Room)",
+    "summary": "A digital patient decision aid designed to increase sexually transmitted infection testing in the emergency department. Evaluated in a pilot randomized controlled trial and now in a multisite cluster randomized stepped-wedge implementation-effectiveness trial (NIAID R01AI196113).",
+    "role": "MPI",
+    "status": "Active (R01 trial)",
+    "url": "",
+    "tags": ["informatics", "decision aid", "emergency department", "STI"]
+  },
+  {
+    "name": "Enhanced STI and Mpox Surveillance via Health Information Exchange",
+    "summary": "Use of health information exchange and triple-site testing data to characterize STI trends, HIV viral load suppression, and to build machine learning-based mpox surveillance models within a learning health system.",
+    "role": "Principal Investigator",
+    "status": "Ongoing",
+    "url": "",
+    "tags": ["informatics", "surveillance", "machine learning", "HIE"]
+  },
+  {
+    "name": "Doxy-PEP Patient Decision Aid (Is Doxy-PEP Right for Me?)",
+    "summary": "A novel patient decision aid piloted in an urban ambulatory clinic to support shared decision-making around doxycycline post-exposure prophylaxis for STI prevention.",
+    "role": "Senior author",
+    "status": "Piloted",
+    "url": "",
+    "tags": ["decision aid", "doxy-PEP", "STI prevention"]
+  },
+  {
+    "name": "Mpox Severity Scoring System",
+    "summary": "Developed and piloted a clinical severity scoring system for mpox to standardize assessment of disease severity.",
+    "role": "Lead author",
+    "status": "Published",
+    "url": "https://doi.org/10.1093/infdis/jiad492",
+    "tags": ["clinical tool", "mpox", "severity score"]
+  },
+  {
+    "name": "HIV Antiretroviral Stewardship and Long-Acting Injectable Implementation (ALAI UP)",
+    "summary": "Work supporting increased uptake of long-acting injectable antiretrovirals among people with HIV, including clinic-level implementation analysis and the PrEP-SIC roadmap.",
+    "role": "Co-Investigator",
+    "status": "Active",
+    "url": "",
+    "tags": ["implementation", "HIV treatment", "long-acting injectable"]
+  },
+  {
+    "name": "VP&S AI Research and Informatics Workgroups",
+    "summary": "Institutional roles evaluating and guiding AI and emerging technology adoption at Columbia, including the Emerging Technology and Informatics Subcommittee and the VP&S AI Research and AI Training and Education Workgroups.",
+    "role": "Member / Contributor",
+    "status": "Ongoing",
+    "url": "",
+    "tags": ["informatics", "AI", "governance"]
+  }
+]

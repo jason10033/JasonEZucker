@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "jasonzuckermd",
-      "runtimeExecutable": "node",
-      "runtimeArgs": ["serve.js"],
+      "name": "site-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
       "port": 3456
     }
   ]

@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
 
 [[headers]]
   for = "/*"
@@ -13,5 +14,3 @@
   for = "/files/cv.pdf"
   [headers.values]
     Cache-Control = "no-cache, no-store, must-revalidate"
-    Pragma = "no-cache"
-    Expires = "0"

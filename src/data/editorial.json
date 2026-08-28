@@ -1,0 +1,70 @@
+{
+  "boards": [
+    {
+      "period": "2026 - Present",
+      "journal": "International Journal of STD & AIDS",
+      "role": "Editorial Board"
+    },
+    {
+      "period": "2026 - Present",
+      "journal": "Sexually Transmitted Diseases (STD)",
+      "role": "Editorial Board"
+    },
+    {
+      "period": "2025 - Present",
+      "journal": "Antimicrobial Agents and Chemotherapy (AAC)",
+      "role": "Editorial Board"
+    },
+    {
+      "period": "2025 - 2026",
+      "journal": "Current Opinion in HIV and AIDS, Mpox Section",
+      "role": "Guest Section Editor"
+    },
+    {
+      "period": "2024 - 2025",
+      "journal": "BMC Medicine, Special Issue on Mpox: Epidemiology, prevention, and treatment",
+      "role": "Guest Issue Editor"
+    },
+    {
+      "period": "2023 - 2024",
+      "journal": "Frontiers in Reproductive Health, Special Issue on The Impact of Emerging Infections on Adolescent Sexual and Reproductive Health",
+      "role": "Guest Topic Editor"
+    }
+  ],
+  "reviewer": [
+    "AIDS and Behavior",
+    "AIDS Care",
+    "AIDS Patient Care and STDs",
+    "Antimicrobial Agents and Chemotherapy (AAC)",
+    "BMJ Global Health",
+    "BMJ Open",
+    "BMJ Public Health",
+    "Clinical Infectious Diseases (CID)",
+    "Emerging Infectious Diseases (EID)",
+    "International Journal of STD & AIDS",
+    "International Journal of Infectious Diseases",
+    "Journal of the American Medical Association (JAMA)",
+    "JAMA Pediatrics",
+    "Journal of Acquired Immune Deficiency Syndromes",
+    "Journal of the American Medical Informatics Association (JAMIA)",
+    "Journal of Healthcare for the Poor and Underserved",
+    "Journal of Infectious Diseases (JID)",
+    "Journal of Medical Internet Research (JMIR)",
+    "Journal of the International AIDS Society (JIAS)",
+    "Journal of the International Association of Providers of AIDS Care (JIAPAC)",
+    "Journal of the Pediatric Infectious Diseases Society (JPIDS)",
+    "Lancet",
+    "Lancet HIV",
+    "Lancet ID",
+    "MedEdPORTAL",
+    "Nature Communications",
+    "New England Journal of Medicine (NEJM)",
+    "Open Forum Infectious Diseases",
+    "PLOS Global Public Health",
+    "Public Health Reports",
+    "Preventive Medicine Reports",
+    "Sexually Transmitted Diseases",
+    "Sexually Transmitted Infections",
+    "Travel Medicine and Infectious Diseases"
+  ]
+}

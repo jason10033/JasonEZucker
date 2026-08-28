@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# The private workspace is a client-side, authenticated hash route (#/private)
+# and is not exposed as a crawlable URL. It also emits a noindex directive.

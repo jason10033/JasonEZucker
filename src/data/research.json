@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sti",
+    "title": "Sexually Transmitted Infections",
+    "icon": "fa-vials",
+    "summary": "Expanding STI testing and treatment through emergency department decision support, doxycycline post-exposure prophylaxis, and congenital syphilis elimination.",
+    "highlights": [
+      "STIckER digital decision aid for ED STI testing (R01)",
+      "Doxy4STICare: doxycycline PEP and antimicrobial resistance (R01)",
+      "CDC STI Treatment Guidelines contributor"
+    ]
+  },
+  {
+    "id": "hiv",
+    "title": "HIV Prevention and Care",
+    "icon": "fa-shield-virus",
+    "summary": "Improving pre-exposure prophylaxis (PrEP) delivery, long-acting injectable antiretrovirals, and persistence in comprehensive HIV prevention services, with a focus on equity and implementation.",
+    "highlights": [
+      "K23 on bioinformatics for HIV prevention and PrEP persistence",
+      "Long-acting injectable ART implementation (ALAI UP)",
+      "Lead, HIV PrEP section, IAS-USA Prevention Guidelines"
+    ]
+  },
+  {
+    "id": "mpox",
+    "title": "Mpox and Emerging Infections",
+    "icon": "fa-virus-covid",
+    "summary": "Clinical trials, diagnostics, and public health response for mpox and other emerging threats, including tecovirimat treatment and vaccine safety.",
+    "highlights": [
+      "STOMP / ACTG 5418 tecovirimat trial (NEJM 2026)",
+      "ACIP Mpox Vaccines Working Group",
+      "WHO Living Atlas for Mpox Lesions"
+    ]
+  },
+  {
+    "id": "informatics",
+    "title": "Health Informatics and AI",
+    "icon": "fa-microchip",
+    "summary": "Applying bioinformatics, health information exchange data, and machine learning to strengthen disease surveillance, testing, and care delivery.",
+    "highlights": [
+      "Triple-site testing trends using HIE data",
+      "VP&S AI Research and Education workgroups",
+      "Digital patient decision aids and clinical reference tools"
+    ]
+  }
+]

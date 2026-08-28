@@ -1,0 +1,33 @@
+{
+  "name": "Jason Zucker",
+  "credentials": "MD, MS",
+  "titles": [
+    "Assistant Professor of Medicine (joint appointment with the Department of Pediatrics)"
+  ],
+  "affiliations": [
+    "Columbia University Vagelos College of Physicians and Surgeons",
+    "NewYork-Presbyterian / Columbia University Irving Medical Center"
+  ],
+  "location": "New York, NY",
+  "email": "jz2700@cumc.columbia.edu",
+  "phone": "212-305-8039",
+  "shortBio": "Jason Zucker is an Infectious Disease physician-scientist and Assistant Professor of Medicine (with a joint appointment in Pediatrics) at Columbia University Vagelos College of Physicians and Surgeons. He serves as Principal Investigator and Co-Medical Director of the NYC STI/HIV Prevention Training Center and as Director and Principal Investigator of Project STAY, a youth-focused sexual health program in New York City. His research focuses on HIV and STI prevention and treatment, mpox, and the use of bioinformatics and machine learning to improve disease surveillance and care delivery.",
+  "heroLead": "My research optimizes the sexual health cascade of care for adolescents and young adults living with or at risk of HIV and sexually transmitted infections. Working at the intersection of data science, behavioral science, and clinical informatics, I use clinical data to find gaps, build stakeholder-informed interventions, and evaluate them through clinical trials and implementation science across patients, providers, and health systems to improve screening, linkage, and engagement in care.",
+  "interests": [
+    "HIV prevention and care",
+    "Sexually transmitted infections",
+    "Mpox and emerging infections",
+    "Bioinformatics and machine learning",
+    "Implementation science",
+    "Provider education"
+  ],
+  "links": {
+    "email": "mailto:jz2700@cumc.columbia.edu",
+    "columbia": "https://www.infectiousdiseases.cuimc.columbia.edu/profile/jason-e-zucker-md",
+    "googleScholar": "https://scholar.google.com/citations?user=7G7J7eQAAAAJ&hl=en",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/?term=Zucker+J%5BAuthor%5D+Columbia+infectious",
+    "orcid": "",
+    "twitter": "",
+    "linkedin": ""
+  }
+}

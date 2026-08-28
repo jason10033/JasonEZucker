@@ -1,0 +1,183 @@
+{
+  "active": [
+    {
+      "id": "NIAID R01AI196113",
+      "reporterUrl": "https://reporter.nih.gov/project-details/11278541",
+      "title": "A Multisite Cluster Randomized Stepped-Wedge Implementation-Effectiveness Trial of a Patient Decision Aid to Increase Sexually Transmitted Infection Testing in the Emergency Department: The STIckER Trial",
+      "role": "MPI",
+      "pi": "Zucker J, Chernick L",
+      "period": "04/2026 - 03/2031"
+    },
+    {
+      "id": "NIAID R01AI192204",
+      "reporterUrl": "https://reporter.nih.gov/project-details/11388656",
+      "title": "Doxy4STICare - Doxycycline for Sexually Transmitted Infections; A Comprehensive Assessment of Antimicrobial Resistance and Engagement",
+      "role": "PI",
+      "pi": "Zucker J",
+      "period": "08/2025 - 07/2030"
+    },
+    {
+      "id": "NIH/NIAID K23AI150378",
+      "reporterUrl": "https://reporter.nih.gov/project-details/10886003",
+      "title": "Harnessing Bioinformatics for HIV Prevention: Understanding Persistence in Comprehensive HIV Prevention Services",
+      "role": "PI",
+      "pi": "Zucker J",
+      "period": "08/2020 - 07/2026 (NCE)"
+    },
+    {
+      "id": "NIH/NIAID 5UM1AI068632-19",
+      "reporterUrl": "https://reporter.nih.gov/project-details/11238425",
+      "title": "Supplement: International Maternal Pediatric Adolescent AIDS Clinical Trials Network study; Protocol Chair for IMPAACT 2044 (Phase IV Study of the Pharmacokinetics and Safety of Ceftriaxone and Benzathine Penicillin G During Pregnancy)",
+      "role": "Protocol Chair",
+      "pi": "Nachman S",
+      "period": "12/2023 - 11/2026"
+    },
+    {
+      "id": "CDC 5NU62PS924586",
+      "title": "National Network of Sexually Transmitted Diseases Clinical Prevention Training Centers (NNPTC)",
+      "role": "PI (2026 - Present), Assistant Medical Director (2021 - Present)",
+      "pi": "Zucker J",
+      "period": "04/2020 - 03/2027"
+    },
+    {
+      "id": "HRSA U1SHA46532",
+      "title": "Increasing Uptake of Long-Acting Injectable (LAI) Antiretrovirals (ARV) Among People with HIV (The ALAI UP Project)",
+      "role": "Co-Investigator",
+      "pi": "Meyers K",
+      "period": "09/2022 - 08/2026"
+    },
+    {
+      "id": "NIH/NIAID UM1 AI069470",
+      "reporterUrl": "https://reporter.nih.gov/project-details/11238983",
+      "title": "Columbia Collaborative HIV/AIDS Clinical Trials Unit",
+      "role": "Co-Investigator",
+      "pi": "Sobieszczyk",
+      "period": "12/2020 - 11/2027"
+    },
+    {
+      "id": "5P30MH43520",
+      "reporterUrl": "https://reporter.nih.gov/project-details/11368454",
+      "title": "HIV Center for Clinical and Behavioral Studies",
+      "role": "Co-I and Biomedical Core Early-Stage Investigator Member",
+      "pi": "Remien R",
+      "period": "05/2023 - 04/2028"
+    },
+    {
+      "id": "CDC CISA",
+      "title": "Clinical Immunization Safety Assessment (CISA) Clinical Vaccine Safety Evaluation, Columbia University",
+      "role": "Contributing Contractor",
+      "pi": "Stockwell",
+      "period": "09/2022 - Present"
+    }
+  ],
+  "pending": [
+    {
+      "id": "1P30AI191337-01",
+      "title": "Columbia University-Weill Cornell Medicine CFAR (CU-WCM CFAR)",
+      "role": "Associate Director of Clinical Research Core",
+      "pi": "Sobieszczyk, Gulick",
+      "period": "03/2026 - 02/2031"
+    }
+  ],
+  "past": [
+    {
+      "id": "NIAID R56AI182347",
+      "title": "Doxy4STICare - Doxycycline for Sexually Transmitted Infections; A Comprehensive Assessment of Antimicrobial Resistance and Engagement",
+      "role": "PI",
+      "pi": "Zucker J",
+      "period": "03/2024 - 02/2026 (NCE)"
+    },
+    {
+      "id": "NIH/NIAID 5UM1AI068636",
+      "title": "Supplement to RFA-AI-12-004. AIDS Clinical Trials Group for Research on Therapeutics for HIV and Related Infections; Protocol Vice-Chair for ACTG 5418 (A Randomized, Placebo-Controlled, Double-Blinded Trial of the Safety and Efficacy of Tecovirimat for the Treatment of Human Mpox Disease)",
+      "role": "Protocol Vice-Chair, CRU Site PI",
+      "pi": "Currier J",
+      "period": "12/2022 - 11/2025"
+    },
+    {
+      "id": "CDC 23IPA2215796",
+      "title": "CDC's Sexually Transmitted Infections (STI) Treatment Guidelines",
+      "role": "Medical Consultant Contributing to STI Treatment Guidelines",
+      "pi": "Zucker J",
+      "period": "09/2023 - 09/2025"
+    },
+    {
+      "id": "NIH/NIAID R21AI168958",
+      "title": "A Digital Patient Decision Aid to Increase Sexually Transmitted Infection Testing in the Emergency Department: The STIckER Study",
+      "role": "Co-Principal Investigator",
+      "pi": "Chernick, Zucker",
+      "period": "05/2022 - 04/2024"
+    },
+    {
+      "id": "NIH/NIMH R21 MH133755-01",
+      "title": "The TAIL-PrEP Study: Acceptability and Feasibility of a Tailored Adherence Intervention for Safe Discontinuation of Long-acting PrEP",
+      "role": "Co-Investigator",
+      "pi": "Meyers",
+      "period": "04/2023 - 03/2025"
+    },
+    {
+      "id": "CDC Subcontract",
+      "title": "Mpox Viral Persistence",
+      "role": "Site PI",
+      "pi": "Zucker J",
+      "period": "09/2023 - 09/2024"
+    },
+    {
+      "id": "CDC Subcontract",
+      "title": "Assessing the Validity, Reliability, and Acceptability of Self-Collected Samples For Mpox Virus Testing In The United States",
+      "role": "Site PI",
+      "pi": "Zucker J",
+      "period": "09/2023 - 09/2024"
+    },
+    {
+      "id": "CDC Subcontract",
+      "title": "Life after Mpox (LAMP): Clinical, Psychosocial and Behavioral Sequelae of the 2022 Mpox Outbreak in US",
+      "role": "Site PI",
+      "pi": "Zucker J",
+      "period": "06/2023 - 08/2024"
+    },
+    {
+      "id": "CaMPR-ISP Pilot award",
+      "title": "Using Shared Decision Making to Increase Equitable Testing of Sexually Transmitted Infections among Adolescents and Young Adults in the Emergency Department",
+      "role": "Co-PI",
+      "pi": "Chernick, Zucker",
+      "period": "06/2022 - 05/2023"
+    },
+    {
+      "id": "NIH Loan Repayment Program (NIAID)",
+      "title": "Utilizing Novel Technologies to Improve Prevention and Care for Individuals Living with or at Risk of HIV",
+      "role": "Awardee",
+      "pi": "Zucker J",
+      "period": "09/2017 - 12/2021"
+    },
+    {
+      "id": "CDC",
+      "title": "Evaluation of Neurologic Illness Possibly Associated with COVID-19",
+      "role": "Co-Investigator",
+      "pi": "Thakur",
+      "period": "12/2020 - 06/2021"
+    },
+    {
+      "id": "NIH/NIAID UM1 AI069470",
+      "reporterUrl": "https://reporter.nih.gov/project-details/11238983",
+      "title": "Columbia Partnership for Prevention and Control of HIV/AIDS Clinical Trials Unit (Columbia Partnership CTU)",
+      "role": "Co-Investigator",
+      "pi": "Sobieszczyk, El-Sadr",
+      "period": "02/2017 - 11/2020"
+    },
+    {
+      "id": "NIAID 5T32AI007531-18",
+      "title": "T32 to Support Training in Pediatric Infectious Diseases",
+      "role": "Trainee",
+      "pi": "Saiman",
+      "period": "07/2016 - 06/2019"
+    },
+    {
+      "id": "NIAID 2UM1AI068614-09",
+      "title": "Stick2PrEP - A Pilot Study Evaluating the Use of Novel Self-administered Dried Blood Spot Device (HemaSpot) to Monitor PrEP Use among Men Who Have Sex with Men",
+      "role": "Co-Investigator",
+      "pi": "Sobieszczyk",
+      "period": "07/2016 - 11/2018"
+    }
+  ]
+}

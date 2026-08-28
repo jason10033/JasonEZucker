@@ -1,0 +1,46 @@
+{
+  "clinical": [
+    {
+      "icon": "fa-vial",
+      "title": "STI Testing, Treatment, and Prevention",
+      "summary": "Comprehensive STI testing, treatment, and prevention, including doxycycline post-exposure prophylaxis, in a diverse Northern Manhattan sexual health program."
+    },
+    {
+      "icon": "fa-shield-virus",
+      "title": "HIV Prevention",
+      "summary": "PrEP and PEP delivery and counseling to prevent HIV among adolescents, young adults, and others at risk."
+    },
+    {
+      "icon": "fa-hand-holding-medical",
+      "title": "HIV Care",
+      "summary": "Longitudinal HIV care as an infectious diseases attending at NewYork-Presbyterian/Columbia, including long-acting injectable antiretroviral therapy."
+    },
+    {
+      "icon": "fa-people-group",
+      "title": "Project STAY",
+      "summary": "Director and Principal Investigator of a youth-focused sexual health program providing clinical care, HIV and STI prevention, and outreach across New York City."
+    }
+  ],
+  "education": [
+    {
+      "icon": "fa-chalkboard-user",
+      "title": "NYC STI/HIV Prevention Training Center",
+      "summary": "Principal Investigator and Co-Medical Director of a CDC-funded center delivering clinical training and capacity building for providers across five states and two territories."
+    },
+    {
+      "icon": "fa-seedling",
+      "title": "Fellowship SOC Co-Director",
+      "summary": "Co-Director of the Infectious Diseases Fellowship Scholarly Oversight Committee, mentoring pre- and post-doctoral trainees in HIV and STI research."
+    },
+    {
+      "icon": "fa-user-graduate",
+      "title": "Resident and Fellow Education",
+      "summary": "Recurring lectures on sexual health, PrEP, PEP, and empiric antibiotics across internal medicine, pediatrics, and emergency medicine."
+    },
+    {
+      "icon": "fa-graduation-cap",
+      "title": "Medical Student Teaching",
+      "summary": "Annual STI lecture and small-group facilitation in the Microbiology and Infectious Diseases course for second-year students at VP&S."
+    }
+  ]
+}
