@@ -41,7 +41,7 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/research" element={<ComingSoon title="Research" />} />
+          <Route path="/research" element={<Research />} />
           <Route path="/clinical" element={<Clinical />} />
           <Route path="/administration" element={<ComingSoon title="Administration" />} />
           <Route path="/publications" element={<ComingSoon title="Publications" />} />
