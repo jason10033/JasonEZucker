@@ -8,9 +8,17 @@ import clinicalInnovations from '../data/clinicalInnovations.json'
 export default function Innovations() {
   return (
     <>
-      <PageHeader title="Innovations" />
+      <PageHeader title="Innovation" />
 
       <section className="section" style={{ paddingTop: '1.4rem' }}>
+        <div className="container">
+          <div className="eyebrow">Research</div>
+          <h2 className="section-title">Research innovations</h2>
+          <p style={{ color: 'var(--muted)', maxWidth: '60ch' }}>Coming soon.</p>
+        </div>
+      </section>
+
+      <section className="section focus-section">
         <div className="container">
           <div className="eyebrow">Education</div>
           <h2 className="section-title">Educational innovations</h2>
@@ -18,7 +26,7 @@ export default function Innovations() {
         </div>
       </section>
 
-      <section className="section focus-section">
+      <section className="section highlights-section">
         <div className="container">
           <div className="eyebrow">Clinical</div>
           <h2 className="section-title">Clinical innovations</h2>

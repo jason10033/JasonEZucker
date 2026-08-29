@@ -75,7 +75,7 @@ function ProjectCard({ s, onSelect }) {
 
 export default function Research() {
   const [query, setQuery] = useState('')
-  const [mode, setMode] = useState('recent') // 'recent' | 'selected'
+  const [mode, setMode] = useState('selected') // 'recent' | 'selected'
   const [project, setProject] = useState(null)
   const [topic, setTopic] = useState(null)
 

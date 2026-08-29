@@ -213,7 +213,7 @@ a.flip:hover .flip-inner, a.flip:focus-visible .flip-inner { transform: rotateY(
 /* Project cards with hover reveal */
 .proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem; }
 .proj-grid + .proj-grid { margin-top: 1rem; }
-.proj-card { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; box-shadow: var(--shadow-sm); cursor: pointer; overflow: hidden; min-height: 150px; text-align: left; font: inherit; color: inherit; width: 100%; display: flex; flex-direction: column; }
+.proj-card { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; box-shadow: var(--shadow-sm); cursor: pointer; overflow: hidden; min-height: 240px; text-align: left; font: inherit; color: inherit; width: 100%; display: flex; flex-direction: column; }
 .proj-card:hover { box-shadow: var(--shadow-md); }
 .proj-card h3 { font-family: var(--serif); font-size: 1.08rem; color: var(--heading); margin: 0; }
 .proj-card .p-role { margin-top: auto; padding-top: 0.7rem; font-family: var(--mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
@@ -251,8 +251,9 @@ a.flip:hover .flip-inner, a.flip:focus-visible .flip-inner { transform: rotateY(
 
 /* Homepage-style flip cards, formatted as clean cards */
 .eflip-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
-.eflip { perspective: 1200px; min-height: 220px; }
-.eflip-inner { position: relative; width: 100%; height: 100%; min-height: 220px; transition: transform 0.55s cubic-bezier(0.4, 0.2, 0.2, 1); transform-style: preserve-3d; }
+.eflip { perspective: 1200px; min-height: 240px; }
+.eflip-inner { position: relative; width: 100%; height: 100%; min-height: 240px; transition: transform 0.55s cubic-bezier(0.4, 0.2, 0.2, 1); transform-style: preserve-3d; }
+a.eflip { text-decoration: none; color: inherit; display: block; }
 .eflip:hover .eflip-inner, .eflip:focus-within .eflip-inner { transform: rotateY(180deg); }
 .eflip-face { position: absolute; inset: 0; -webkit-backface-visibility: hidden; backface-visibility: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 1.4rem; display: flex; flex-direction: column; overflow: hidden; }
 .eflip-back { transform: rotateY(180deg); }

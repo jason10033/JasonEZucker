@@ -14,7 +14,7 @@ const byRecent = (a, b) => startKey(b.period) - startKey(a.period)
 const GROUPS = [
   { key: 'Institutional', eyebrow: 'Columbia', title: 'Leadership', cls: 'section' },
   { key: 'Committees', eyebrow: 'Columbia', title: 'Committees', cls: 'section focus-section' },
-  { key: 'National/International', eyebrow: 'National and International', title: 'National and international', cls: 'section highlights-section' },
+  { key: 'National/International', eyebrow: 'National and International', title: 'Committees', cls: 'section highlights-section' },
   { key: 'Guidelines', eyebrow: 'Guidelines', title: 'Guidelines and advisory', cls: 'section grants-section' },
   { key: 'NIH Review', eyebrow: 'NIH', title: 'NIH reviewer', cls: 'section' },
 ]

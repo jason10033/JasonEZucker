@@ -5,7 +5,7 @@ const links = [
   { to: '/research', label: 'Research' },
   { to: '/education', label: 'Education' },
   { to: '/clinical', label: 'Clinical' },
-  { to: '/innovations', label: 'Innovations' },
+  { to: '/innovations', label: 'Innovation' },
   { to: '/administration', label: 'Administration & Leadership' },
 ]
 

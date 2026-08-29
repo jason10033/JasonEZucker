@@ -94,7 +94,7 @@ export default function Education() {
       {/* Courses and lectures */}
       <section className="section highlights-section">
         <div className="container">
-          <div className="eyebrow">Curriculum</div>
+          <div className="eyebrow">Columbia</div>
           <h2 className="section-title">Courses and lectures</h2>
           <div className="rows" style={{ marginTop: '0.5rem' }}>
             {teaching.map((t) => (
