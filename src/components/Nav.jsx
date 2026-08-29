@@ -6,7 +6,7 @@ const links = [
   { to: '/education', label: 'Education' },
   { to: '/clinical', label: 'Clinical' },
   { to: '/innovations', label: 'Innovations' },
-  { to: '/administration', label: 'Administration' },
+  { to: '/administration', label: 'Administration & Leadership' },
 ]
 
 export default function Nav() {

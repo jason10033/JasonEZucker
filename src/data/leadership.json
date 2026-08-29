@@ -7,6 +7,13 @@
     "category": "Institutional"
   },
   {
+    "period": "12/2025 - Present",
+    "role": "Lead for Emerging Technologies in Clinical Research",
+    "org": "Departments of Medicine and Pediatrics, Columbia University Vagelos College of Physicians and Surgeons",
+    "location": "New York, NY",
+    "category": "Institutional"
+  },
+  {
     "period": "07/2021 - Present",
     "role": "Principal Investigator and Co-Medical Director (01/2026 - Present); Assistant Medical Director (07/2021 - 12/2025); Learning Community Co-Lead and Core Faculty (07/2019 - 06/2021)",
     "org": "New York City STI/HIV Prevention Training Center (NYC PTC)",
@@ -46,7 +53,7 @@
     "role": "Co-Director, Infectious Diseases Fellowship Scholarly Oversight Committee",
     "org": "Department of Medicine, Vagelos College of Physicians and Surgeons, Columbia University",
     "location": "New York, NY",
-    "category": "Committees"
+    "category": "Institutional"
   },
   {
     "period": "10/2023 - 06/2024",
@@ -158,6 +165,6 @@
     "role": "Reviewer, Special Emphasis Panel / Scientific Review Group (2022/01 ZAI1 CD-A (J2) 1)",
     "org": "National Institutes of Health",
     "location": "Washington, DC",
-    "category": "National/International"
+    "category": "NIH Review"
   }
 ]
