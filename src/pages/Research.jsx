@@ -11,7 +11,15 @@ const shortId = (id) => (id || '').replace(/^(NIH\/NIAID|NIH\/NIMH|NIAID|NIMH|NI
 const shortRole = (r) => (r || '').split(/[,(;]/)[0].trim()
 const clip = (s, n) => (s && s.length > n ? s.slice(0, n).trim() + '…' : s)
 
-function GrantList({ items }) {
+const TOPICS = [
+  { key: 'syphilis', label: 'Syphilis', match: 'syphilis|treponema' },
+  { key: 'mpox', label: 'Mpox', match: 'mpox|monkeypox|tecovirimat|orthopox|mpxv' },
+  { key: 'doxypep', label: 'Doxy-PEP', match: 'doxy-?pep|doxycycline|doxy-?care' },
+  { key: 'prep', label: 'HIV PrEP', match: '\\bprep\\b|pre-?exposure|preexposure' },
+  { key: 'testing', label: 'HIV Testing', match: 'hiv test|hiv screen|self-?test|hiv self|opt-out|point-of-care test' },
+]
+
+function GrantList({ items, full }) {
   return (
     <div className="grants">
       {items.map((g) => (
@@ -22,7 +30,7 @@ function GrantList({ items }) {
             </span>
             <span className="gr">{shortRole(g.role)}</span>
           </div>
-          <span className="gt" title={g.title}>{g.short || clip(g.title, 82)}</span>
+          <span className="gt" title={g.title}>{full ? g.title : (g.short || clip(g.title, 82))}</span>
         </div>
       ))}
     </div>
@@ -30,8 +38,8 @@ function GrantList({ items }) {
 }
 
 function ProjectCard({ s, onSelect }) {
-  return (
-    <button className="proj-card" onClick={() => onSelect(s)}>
+  const inner = (
+    <>
       <div className="study-cats">
         {s.categories.map((c) => <CategoryLogo id={c} key={c} />)}
       </div>
@@ -39,8 +47,28 @@ function ProjectCard({ s, onSelect }) {
       {s.role && <div className="p-role">{s.role}</div>}
       <div className="proj-hover">
         <p>{s.desc}</p>
-        <span className="ph-cta">Filter publications &darr;</span>
+        {s.items && (
+          <ul className="proj-items">
+            {s.items.map((it) => <li key={it}>{it}</li>)}
+          </ul>
+        )}
+        {s.link
+          ? <span className="ph-cta">Visit site &rarr;</span>
+          : s.match ? <span className="ph-cta">Filter publications &darr;</span> : null}
       </div>
+    </>
+  )
+  if (s.link) {
+    return <a className="proj-card" href={s.link} target="_blank" rel="noopener">{inner}</a>
+  }
+  const clickable = !!s.match
+  return (
+    <button
+      className="proj-card"
+      onClick={() => clickable && onSelect(s)}
+      style={clickable ? undefined : { cursor: 'default' }}
+    >
+      {inner}
     </button>
   )
 }
@@ -49,6 +77,7 @@ export default function Research() {
   const [query, setQuery] = useState('')
   const [mode, setMode] = useState('recent') // 'recent' | 'selected'
   const [project, setProject] = useState(null)
+  const [topic, setTopic] = useState(null)
 
   const activeProjects = studies.filter((s) => s.status === 'active')
   const completedProjects = studies.filter((s) => s.status === 'completed')
@@ -56,28 +85,29 @@ export default function Research() {
   const displayed = useMemo(() => {
     const q = query.trim().toLowerCase()
     const match = (p) => `${p.title}${p.authors}${p.journal}`.toLowerCase().includes(q)
-    if (project) {
-      const re = new RegExp(project.match, 'i')
-      let base = publications.filter((p) => re.test(`${p.title} ${p.journal}`))
+    const filterBy = (m) => {
+      const re = new RegExp(m, 'i')
+      const base = publications.filter((p) => re.test(`${p.title} ${p.journal}`))
       return q ? base.filter(match) : base
     }
+    if (project) return filterBy(project.match)
+    if (topic) return filterBy(topic.match)
     if (q) return publications.filter(match)
-    if (mode === 'recent') return publications.slice(0, 10)
-    return selectedPubs.slice(0, 10)
-  }, [project, mode, query])
+    if (mode === 'recent') return publications.slice(0, 5)
+    return selectedPubs.slice(0, 5)
+  }, [project, topic, mode, query])
 
   const selectProject = (s) => {
     setProject(s)
+    setTopic(null)
     setTimeout(() => document.getElementById('publications')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 40)
   }
-  const setModeClear = (m) => { setMode(m); setProject(null) }
+  const setModeClear = (m) => { setMode(m); setProject(null); setTopic(null) }
+  const selectTopic = (t) => { setTopic(t); setProject(null); setQuery('') }
 
   return (
     <>
-      <PageHeader
-        title="Research"
-        lead="Optimizing the sexual health cascade of care for adolescents and young adults, at the intersection of data science, behavioral science, and implementation science."
-      />
+      <PageHeader title="Research" />
 
       {/* Research projects (white) */}
       <section className="section">
@@ -113,13 +143,20 @@ export default function Research() {
           <div className="eyebrow">Publications</div>
           <h2 className="section-title">Publications</h2>
           <p className="section-lead">
-            {publications.length} publications, kept current from PubMed. Toggle the 10 most recent or 10 selected, search the full list, or click a project above to filter.
+            {publications.length} publications, kept current from PubMed. Show the 5 most recent or 5 selected, browse everything on a topic, search the full list, or click a project above to filter.
           </p>
 
           <div className="pub-controls">
-            <button className={`filter-btn ${!project && mode === 'recent' ? 'active' : ''}`} onClick={() => setModeClear('recent')}>10 most recent</button>
-            <button className={`filter-btn ${!project && mode === 'selected' ? 'active' : ''}`} onClick={() => setModeClear('selected')}>10 selected</button>
+            <button className={`filter-btn ${!project && !topic && mode === 'recent' ? 'active' : ''}`} onClick={() => setModeClear('recent')}>5 most recent</button>
+            <button className={`filter-btn ${!project && !topic && mode === 'selected' ? 'active' : ''}`} onClick={() => setModeClear('selected')}>5 selected</button>
             <input className="pub-search" type="search" placeholder="Search title, author, or journal" value={query} onChange={(e) => setQuery(e.target.value)} />
+          </div>
+
+          <div className="pub-topics">
+            <span className="pub-topics-label">By topic</span>
+            {TOPICS.map((t) => (
+              <button key={t.key} className={`filter-btn ${topic?.key === t.key ? 'active' : ''}`} onClick={() => selectTopic(t)}>{t.label}</button>
+            ))}
           </div>
 
           {project && (
@@ -130,13 +167,23 @@ export default function Research() {
               </span>
             </div>
           )}
+          {topic && (
+            <div style={{ marginBottom: '1rem' }}>
+              <span className="pub-filter-chip">
+                Publications on {topic.label}
+                <button onClick={() => setTopic(null)} aria-label="Clear topic filter">×</button>
+              </span>
+            </div>
+          )}
 
           <div className="pub-count">
             {project
               ? `Showing ${displayed.length} publication${displayed.length === 1 ? '' : 's'} for ${project.name}`
-              : query.trim()
-                ? `Showing ${displayed.length} of ${publications.length} matching "${query.trim()}"`
-                : `Showing ${displayed.length} ${mode === 'recent' ? 'most recent' : 'selected'} publications`}
+              : topic
+                ? `Showing ${displayed.length} publication${displayed.length === 1 ? '' : 's'} on ${topic.label}`
+                : query.trim()
+                  ? `Showing ${displayed.length} of ${publications.length} matching "${query.trim()}"`
+                  : `Showing ${displayed.length} ${mode === 'recent' ? 'most recent' : 'selected'} publications`}
           </div>
 
           <div className="pub-list">
@@ -193,7 +240,7 @@ export default function Research() {
           <div className="eyebrow">Completed</div>
           <h2 className="section-title">Past funding</h2>
           <div className="box">
-            <GrantList items={grants.past} />
+            <GrantList items={grants.past} full />
             <div className="grant-note">{grants.past.length} completed awards</div>
           </div>
         </div>

@@ -5,39 +5,54 @@
     "categories": ["sti", "informatics", "trials"],
     "desc": "A digital patient decision aid to increase STI testing in the emergency department, now in a multisite stepped-wedge R01 trial.",
     "role": "MPI, R01",
-    "match": "sticker|decision (aid|tool)|sti testing|testing in the emergency"
+    "match": "sticker|decision.{0,120}emergency"
   },
   {
     "name": "Doxy4STICare",
     "status": "active",
-    "categories": ["sti", "trials"],
+    "categories": ["sti"],
     "desc": "Doxycycline post-exposure prophylaxis for STIs, assessing uptake, engagement, and antimicrobial resistance.",
     "role": "PI, R01",
     "match": "doxy"
   },
   {
-    "name": "ALAI UP",
+    "name": "IMPAACT 2044",
     "status": "active",
+    "categories": ["sti"],
+    "desc": "Protocol Chair for a Phase IV study of the pharmacokinetics and safety of ceftriaxone and benzathine penicillin G during pregnancy (IMPAACT network).",
+    "role": "Protocol Chair",
+    "link": "https://www.impaactnetwork.org/studies/impaact2044"
+  },
+  {
+    "name": "ALAI UP",
+    "status": "completed",
     "categories": ["hiv"],
     "desc": "Increasing uptake of long-acting injectable antiretrovirals among people with HIV.",
     "role": "Co-Investigator",
     "match": "long-acting|injectable|consensus-lai|cabotegravir"
   },
   {
-    "name": "Enhanced STI and Mpox Surveillance",
+    "name": "Bioinformatics for HIV Prevention",
     "status": "active",
-    "categories": ["informatics", "sti", "mpox"],
-    "desc": "Machine-learning surveillance models and real-time dashboards built on health-information-exchange data in a learning health system.",
+    "categories": ["informatics", "hiv"],
+    "desc": "Harnessing bioinformatics and machine learning to understand persistence in comprehensive HIV prevention services, with real-time surveillance built on health-information-exchange data (K23).",
     "role": "PI, K23",
-    "match": "surveillance|machine learning|health information exchange|triple-site|learning public health"
+    "match": "bioinformatics|persistence|machine learning|health information exchange|surveillance|learning public health|triple-site"
   },
   {
-    "name": "Congenital Syphilis Elimination",
+    "name": "All4PrEP",
     "status": "active",
-    "categories": ["sti"],
-    "desc": "New York State strategic planning to eliminate congenital syphilis.",
-    "role": "Member",
-    "match": "syphilis"
+    "categories": ["hiv"],
+    "desc": "A suite of projects improving each step of the PrEP care cascade.",
+    "role": "PI",
+    "items": ["Get2PrEP", "Stick2PrEP", "Lost2PrEP", "Back2PrEP"]
+  },
+  {
+    "name": "Emerging STIs",
+    "status": "active",
+    "categories": ["sti", "mpox"],
+    "desc": "Characterizing and responding to emerging sexually transmitted and skin infections.",
+    "items": ["Mpox", "TMVII", "Klebsiella folliculitis"]
   },
   {
     "name": "Get2PrEP",
@@ -61,6 +76,7 @@
     "categories": ["mpox", "informatics"],
     "desc": "Development and pilot of a clinical severity scoring system for mpox.",
     "role": "Lead",
-    "match": "severity"
+    "match": "severity",
+    "link": "https://mpoxseverityscore.com/"
   }
 ]
