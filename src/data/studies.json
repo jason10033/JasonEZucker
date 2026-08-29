@@ -55,14 +55,6 @@
     "items": ["Mpox", "TMVII", "Klebsiella folliculitis"]
   },
   {
-    "name": "Get2PrEP",
-    "status": "completed",
-    "categories": ["hiv", "informatics"],
-    "desc": "EMR comments and provider nudges to improve PrEP uptake and safe-sex counseling.",
-    "role": "PI",
-    "match": "get2prep|prep upt|provider messaging"
-  },
-  {
     "name": "STOMP (Tecovirimat for Mpox)",
     "status": "completed",
     "categories": ["mpox", "trials"],

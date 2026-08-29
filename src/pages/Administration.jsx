@@ -26,7 +26,9 @@ function Rows({ items }) {
         <div className="row-item" key={i}>
           <div className="r-when">{l.period}</div>
           <div>
-            <div className="r-title">{l.role}</div>
+            <div className="r-title">
+              {l.role.split(';').map((part, j) => <div key={j}>{part.trim()}</div>)}
+            </div>
             <div className="r-sub">
               {l.org}
               {l.location ? ` · ${l.location}` : ''}

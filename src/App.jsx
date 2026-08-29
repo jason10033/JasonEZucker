@@ -43,7 +43,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/research" element={<Research />} />
           <Route path="/clinical" element={<Clinical />} />
-          <Route path="/administration" element={<ComingSoon title="Administration & Leadership" />} />
+          <Route path="/administration" element={<Administration />} />
           <Route path="/publications" element={<ComingSoon title="Publications" />} />
           <Route path="/innovations" element={<Innovations />} />
           <Route path="/education" element={<Education />} />
